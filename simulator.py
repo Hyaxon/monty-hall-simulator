@@ -2,7 +2,7 @@ import random
 import csv
 
 f = open('results.csv','w')
-f.write("Iteration, Swapped?, Win\n")
+f.write("Iteration,Swapped?,Win\n")
 for iteration in range(1, 1001):
     prize_index = random.randrange(0,3)
 
@@ -20,6 +20,6 @@ for iteration in range(1, 1001):
     if swap_choice: choice_index = swap_index
 
     win = choice_index == prize_index
-    f.write(f"{iteration}, {swap_choice}, {win}\n") 
+    f.write(f"{iteration},{swap_choice},{win}\n") 
 
 
