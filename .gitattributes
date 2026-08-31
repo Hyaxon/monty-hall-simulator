@@ -1,0 +1,2 @@
+# Rendered notebook exports are generated artifacts
+*.html linguist-generated=true
