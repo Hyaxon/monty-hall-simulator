@@ -4,7 +4,7 @@ A Python project exploring the Monty Hall problem through an interactive
 game, simulation, and statistical analysis.
 
 I originally built the core game and simulator as a programming exercise
-to test my understanding of Python and the Monty Hall problem. The
+to test my understanding of the Monty Hall problem. The
 project later expanded into a broader analysis of how switching, the
 number of doors, the number of doors revealed, and the host's knowledge
 affect the probability of winning.
